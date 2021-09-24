@@ -7,7 +7,7 @@
       <File FileName="Back-End/Controllers/WeatherForecastController.cs" Line="31" Column="6" />
       <File FileName="Back-End/Startup.cs" Line="30" Column="33" />
       <File FileName="Back-End/Repositorios/IRepositorio.cs" Line="1" Column="1" />
-      <File FileName="Back-End/Controllers/GenerosController.cs" Line="1" Column="1" />
+      <File FileName="Back-End/Controllers/GenerosController.cs" Line="10" Column="48" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
