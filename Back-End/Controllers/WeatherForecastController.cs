@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Back_End.Repositorios;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -17,15 +18,19 @@ namespace Back_End.Controllers
         };
 
     private readonly ILogger<WeatherForecastController> _logger;
+    private readonly IRepositorio repositorio;
 
-    public WeatherForecastController(ILogger<WeatherForecastController> logger)
+    public WeatherForecastController(ILogger<WeatherForecastController> logger, IRepositorio repositorio)
     {
       _logger = logger;
+      this.repositorio = repositorio;
     }
 
     [HttpGet]
     public IEnumerable<WeatherForecast> Get()
     {
+      repositorio.ObtenerTodosLosGeneros();
+
       var rng = new Random();
       return Enumerable.Range(1, 5).Select(index => new WeatherForecast
       {

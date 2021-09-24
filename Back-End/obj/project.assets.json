@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kintela/Repos/cursoUdemyASPNET/back-end-VStudio/Back-End/Back-End/Back-End.csproj",
+      "projectUniqueName": "/Users/kintela/Repos/cursoudemybackend/Back-End/Back-End.csproj",
       "projectName": "Back-End",
-      "projectPath": "/Users/kintela/Repos/cursoUdemyASPNET/back-end-VStudio/Back-End/Back-End/Back-End.csproj",
+      "projectPath": "/Users/kintela/Repos/cursoudemybackend/Back-End/Back-End.csproj",
       "packagesPath": "/Users/kintela/.nuget/packages/",
-      "outputPath": "/Users/kintela/Repos/cursoUdemyASPNET/back-end-VStudio/Back-End/Back-End/obj/",
+      "outputPath": "/Users/kintela/Repos/cursoudemybackend/Back-End/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{195368ED-EC62-4AE2-9332-2C5EE22D9DF1}|Default">
+  <MonoDevelop.Ide.ItemProperties.Back-End PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Back-End/Controllers/GenerosController.cs">
+    <Files>
+      <File FileName="Back-End/Repositorios/RepositorioEnMemoria.cs" Line="21" Column="6" />
+      <File FileName="Back-End/Entidades/Genero.cs" Line="8" Column="1" />
+      <File FileName="Back-End/Controllers/WeatherForecastController.cs" Line="31" Column="6" />
+      <File FileName="Back-End/Startup.cs" Line="30" Column="33" />
+      <File FileName="Back-End/Repositorios/IRepositorio.cs" Line="1" Column="1" />
+      <File FileName="Back-End/Controllers/GenerosController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Back-End" expanded="True">
+            <Node name="Back-End" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="GenerosController.cs" selected="True" />
+              </Node>
+              <Node name="Entidades" expanded="True" />
+              <Node name="Repositorios" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
