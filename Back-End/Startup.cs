@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Back_End.Controllers;
 using Back_End.Repositorios;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -26,7 +27,10 @@ namespace Back_End
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services)
     {
-      services.AddTransient<IRepositorio, RepositorioEnMemoria>();
+      services.AddSingleton<IRepositorio, RepositorioEnMemoria>();
+      services.AddScoped<WeatherForecastController>();
+
+
       services.AddControllers();
     }
 

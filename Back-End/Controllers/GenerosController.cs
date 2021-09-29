@@ -12,10 +12,29 @@ namespace Back_End.Controllers
   public class GenerosController:ControllerBase
   {
     private readonly IRepositorio repositorio;
+		private readonly WeatherForecastController weatherForecastController;
 
-    public GenerosController(IRepositorio repositorio)
+		public GenerosController(IRepositorio repositorio, WeatherForecastController weatherForecastController)
     {
       this.repositorio = repositorio;
+			this.weatherForecastController = weatherForecastController;
+		}
+
+    [HttpPost]
+    public ActionResult Post([FromBody] Genero genero)
+    {
+      repositorio.CrearGenero(genero);
+      return NoContent();
+    }
+
+    [HttpGet("guid")] // api/generos/guid
+    public ActionResult<Guid> GetGUID()
+    {
+      return Ok(new
+      {
+        GUID_GenerosController=repositorio.ObtenerGUID(),
+        GUID_WeatherForeCastController=weatherForecastController.ObtenerGUIDWeatherForecastController()
+      });
     }
 
     [HttpGet]
@@ -40,11 +59,7 @@ namespace Back_End.Controllers
       return genero;
     }
 
-    [HttpPost]
-    public ActionResult Post([FromBody] Genero genero)
-    {
-      return NoContent();
-    }
+    
 
     [HttpPut]
     public ActionResult Put([FromBody] Genero genero)

@@ -9,6 +9,8 @@ namespace Back_End.Repositorios
   {
     private List<Genero> _generos;
 
+    public Guid _guid; //genera un string aleatorio con una estructura tipo 123456-DFHGF-FGFFD-DFR
+
     public RepositorioEnMemoria()
     {
       _generos = new List<Genero>()
@@ -16,6 +18,19 @@ namespace Back_End.Repositorios
         new Genero(){ Id=1,Nombre="Comedia"},
         new Genero(){ Id=2,Nombre="Acción"}
       };
+
+      _guid = Guid.NewGuid();
+    }
+
+    public void CrearGenero(Genero genero)
+    {
+      genero.Id = _generos.Count() + 1;
+      _generos.Add(genero);
+    }
+
+    public Guid ObtenerGUID()
+    {
+      return _guid;
     }
 
     public List<Genero> ObtenerTodosLosGeneros()
