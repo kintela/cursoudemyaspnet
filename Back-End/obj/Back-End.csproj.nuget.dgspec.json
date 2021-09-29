@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kintela/Repos/cursoudemybackend/Back-End/Back-End.csproj": {}
+    "C:\\Users\\HP\\Documents\\Repos\\cursoudemyaspnet\\Back-End\\Back-End.csproj": {}
   },
   "projects": {
-    "/Users/kintela/Repos/cursoudemybackend/Back-End/Back-End.csproj": {
+    "C:\\Users\\HP\\Documents\\Repos\\cursoudemyaspnet\\Back-End\\Back-End.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kintela/Repos/cursoudemybackend/Back-End/Back-End.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Documents\\Repos\\cursoudemyaspnet\\Back-End\\Back-End.csproj",
         "projectName": "Back-End",
-        "projectPath": "/Users/kintela/Repos/cursoudemybackend/Back-End/Back-End.csproj",
-        "packagesPath": "/Users/kintela/.nuget/packages/",
-        "outputPath": "/Users/kintela/Repos/cursoudemybackend/Back-End/obj/",
+        "projectPath": "C:\\Users\\HP\\Documents\\Repos\\cursoudemyaspnet\\Back-End\\Back-End.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Documents\\Repos\\cursoudemyaspnet\\Back-End\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/kintela/.config/NuGet/NuGet.Config"
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

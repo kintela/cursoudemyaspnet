@@ -6,6 +6,7 @@ namespace Back_End.Repositorios
 {
   public interface IRepositorio
   {
-    List<Genero> ObtenerTodosLosGeneros();
+		Genero ObtenerPorId(int id);
+		List<Genero> ObtenerTodosLosGeneros();
   }
 }

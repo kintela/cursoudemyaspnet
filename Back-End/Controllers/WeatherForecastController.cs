@@ -18,19 +18,15 @@ namespace Back_End.Controllers
         };
 
     private readonly ILogger<WeatherForecastController> _logger;
-    private readonly IRepositorio repositorio;
 
-    public WeatherForecastController(ILogger<WeatherForecastController> logger, IRepositorio repositorio)
+    public WeatherForecastController(ILogger<WeatherForecastController> logger)
     {
       _logger = logger;
-      this.repositorio = repositorio;
     }
 
     [HttpGet]
     public IEnumerable<WeatherForecast> Get()
     {
-      repositorio.ObtenerTodosLosGeneros();
-
       var rng = new Random();
       return Enumerable.Range(1, 5).Select(index => new WeatherForecast
       {
