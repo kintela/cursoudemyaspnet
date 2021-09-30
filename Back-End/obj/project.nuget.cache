@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "c9hwcg+oFg6Z9sGxOou2xLA3R8D1TqebUf8hC5tva7nRwG7fqv1ZoA+axBDIDMYpcy+hVIEQO40pU0uDLxBf2Q==",
+  "dgSpecHash": "v3yiNnNjXRqB7AHtgm4ny4OzErlKpz4r5cRKaSiHxykx1Q+3Acz31dB9mt78J3PppFMmj3IZhLcZKocNuUGlsA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\Documents\\Repos\\cursoudemyaspnet\\Back-End\\Back-End.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/kintela/Repos/cursoudemybackend/Back-End/Back-End.csproj",
+  "expectedPackageFiles": [
+    "/Users/kintela/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/5.0.10/microsoft.aspnetcore.authentication.jwtbearer.5.0.10.nupkg.sha512",
+    "/Users/kintela/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/Users/kintela/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.7.1/microsoft.identitymodel.jsonwebtokens.6.7.1.nupkg.sha512",
+    "/Users/kintela/.nuget/packages/microsoft.identitymodel.logging/6.7.1/microsoft.identitymodel.logging.6.7.1.nupkg.sha512",
+    "/Users/kintela/.nuget/packages/microsoft.identitymodel.protocols/6.7.1/microsoft.identitymodel.protocols.6.7.1.nupkg.sha512",
+    "/Users/kintela/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.7.1/microsoft.identitymodel.protocols.openidconnect.6.7.1.nupkg.sha512",
+    "/Users/kintela/.nuget/packages/microsoft.identitymodel.tokens/6.7.1/microsoft.identitymodel.tokens.6.7.1.nupkg.sha512",
+    "/Users/kintela/.nuget/packages/system.identitymodel.tokens.jwt/6.7.1/system.identitymodel.tokens.jwt.6.7.1.nupkg.sha512",
+    "/Users/kintela/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

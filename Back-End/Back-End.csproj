@@ -7,10 +7,14 @@
 
   <ItemGroup>
     <None Remove="Entidades\" />
-    <None Remove="Repositorios\" />
+    <None Remove="Microsoft.AspNetCore.Authentication.JwtBearer" />
+    <None Remove="Filtros\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entidades\" />
-    <Folder Include="Repositorios\" />
+    <Folder Include="Filtros\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.10" />
   </ItemGroup>
 </Project>

@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Back_End
-build_property.ProjectDir = C:\Users\HP\Documents\Repos\cursoudemyaspnet\Back-End\
+build_property.ProjectDir = /Users/kintela/Repos/cursoudemybackend/Back-End/
