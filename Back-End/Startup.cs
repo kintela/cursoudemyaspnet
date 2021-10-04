@@ -31,6 +31,11 @@ namespace Back_End
     public void ConfigureServices(IServiceCollection services)
     {
 
+      services.AddCors(options=> {
+        options.AddDefaultPolicy(builder=> {
+          builder.WithOrigins("http://localhost:4200").AllowAnyMethod().AllowAnyHeader();
+        });
+      });
       services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer();
 
       services.AddControllers(options=>
@@ -51,6 +56,8 @@ namespace Back_End
       app.UseHttpsRedirection();
 
       app.UseRouting();
+
+      app.UseCors();
 
       app.UseAuthentication();
 
